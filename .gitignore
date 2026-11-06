@@ -1,0 +1,28 @@
+﻿# Python bytecode
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data and SQLite databases
+*.db
+*.sqlite3
+data/exports/*.csv
+data/exports/*.json
+data/processed/*.csv
+data/processed/*.json
+
+# Logs
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
